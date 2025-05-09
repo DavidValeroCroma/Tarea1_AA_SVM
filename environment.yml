@@ -1,0 +1,16 @@
+name: svm
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - jupyter
+  - scikit-learn
+  - matplotlib
+  - numpy
+  - pandas
+  - umap-learn
+  - pillow
+  - pip
+  - pip:
+      - opencv-python
